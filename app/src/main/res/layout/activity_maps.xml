@@ -10,6 +10,21 @@
     android:paddingTop="16dp"
     tools:context="com.elyer.maps.MapsActivity">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:hint="Where do you want to go" />
+
+    <Button
+        android:text="Go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="geoLocate"
+        android:layout_gravity="center_horizontal"/>
+
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
